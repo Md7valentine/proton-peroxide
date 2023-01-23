@@ -1,0 +1,33 @@
+# System files
+*.app
+*.DS_Store
+
+# Editor files
+.*.sw?
+*~
+.idea
+
+# Test files
+godog.test
+debug.test
+coverage.html
+
+# Run files
+mem.pprof
+
+# Auto generated
+internal/**/credits.go
+vendor
+vendor-cache
+/main.go
+
+
+# Build files
+/launcher-*
+/bridge_*_*.tgz
+/ie_*_*.tgz
+/versioner
+/hasher
+cmd/Desktop-Bridge/deploy
+cmd/Import-Export/deploy
+proton-bridge
